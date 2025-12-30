@@ -1,5 +1,5 @@
-import { IJsonRect } from "./model/IJsonModel";
-import { Orientation } from "./Orientation";
+import { IJsonRect } from "./model/IJsonModel.ts";
+import { Orientation } from "./Orientation.ts";
 
 export class Rect {
     static empty() {

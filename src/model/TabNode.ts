@@ -1,12 +1,12 @@
-import { Attribute } from "../Attribute";
-import { AttributeDefinitions } from "../AttributeDefinitions";
-import { Rect } from "../Rect";
-import { BorderNode } from "./BorderNode";
-import { IDraggable } from "./IDraggable";
-import { IJsonTabNode } from "./IJsonModel";
-import { Model } from "./Model";
-import { Node } from "./Node";
-import { TabSetNode } from "./TabSetNode";
+import { Attribute } from "../Attribute.ts";
+import { AttributeDefinitions } from "../AttributeDefinitions.ts";
+import { Rect } from "../Rect.ts";
+import { BorderNode } from "./BorderNode.ts";
+import { IDraggable } from "./IDraggable.ts";
+import { IJsonTabNode } from "./IJsonModel.ts";
+import { Model } from "./Model.ts";
+import { Node } from "./Node.ts";
+import { TabSetNode } from "./TabSetNode.ts";
 
 export class TabNode extends Node implements IDraggable {
     static readonly TYPE = "tab";

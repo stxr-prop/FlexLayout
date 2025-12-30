@@ -1,11 +1,11 @@
-import { AttributeDefinitions } from "../AttributeDefinitions";
-import { DockLocation } from "../DockLocation";
-import { DropInfo } from "../DropInfo";
-import { Orientation } from "../Orientation";
-import { Rect } from "../Rect";
-import { IDraggable } from "./IDraggable";
-import { IJsonBorderNode, IJsonRowNode, IJsonTabNode, IJsonTabSetNode } from "./IJsonModel";
-import { Model } from "./Model";
+import { AttributeDefinitions } from "../AttributeDefinitions.ts";
+import { DockLocation } from "../DockLocation.ts";
+import { DropInfo } from "../DropInfo.ts";
+import { Orientation } from "../Orientation.ts";
+import { Rect } from "../Rect.ts";
+import { IDraggable } from "./IDraggable.ts";
+import { IJsonBorderNode, IJsonRowNode, IJsonTabNode, IJsonTabSetNode } from "./IJsonModel.ts";
+import { Model } from "./Model.ts";
 
 export abstract class Node {
     /** @internal */

@@ -1,9 +1,9 @@
-import { DockLocation } from "../DockLocation";
-import { DropInfo } from "../DropInfo";
-import { BorderNode } from "./BorderNode";
-import { IDraggable } from "./IDraggable";
-import { Model } from "./Model";
-import { Node } from "./Node";
+import { DockLocation } from "../DockLocation.ts";
+import { DropInfo } from "../DropInfo.ts";
+import { BorderNode } from "./BorderNode.ts";
+import { IDraggable } from "./IDraggable.ts";
+import { Model } from "./Model.ts";
+import { Node } from "./Node.ts";
 
 export class BorderSet {
     /** @internal */

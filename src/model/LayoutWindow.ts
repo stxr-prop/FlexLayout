@@ -1,10 +1,10 @@
-import { Rect } from "../Rect";
-import { IJsonPopout } from "./IJsonModel";
-import { Model } from "./Model";
-import { RowNode } from "./RowNode";
-import { Node } from "./Node";
-import { TabSetNode } from "./TabSetNode";
-import { LayoutInternal } from "../view/Layout";
+import { Rect } from "../Rect.ts";
+import { IJsonPopout } from "./IJsonModel.ts";
+import { Model } from "./Model.ts";
+import { RowNode } from "./RowNode.ts";
+import { Node } from "./Node.ts";
+import { TabSetNode } from "./TabSetNode.ts";
+import { LayoutInternal } from "../view/Layout.ts";
 
 export class LayoutWindow {
     private _windowId: string;

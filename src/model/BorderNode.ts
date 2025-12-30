@@ -1,18 +1,18 @@
-import { Attribute } from "../Attribute";
-import { AttributeDefinitions } from "../AttributeDefinitions";
-import { DockLocation } from "../DockLocation";
-import { DropInfo } from "../DropInfo";
-import { Orientation } from "../Orientation";
-import { Rect } from "../Rect";
-import { CLASSES } from "../Types";
-import { IDraggable } from "./IDraggable";
-import { IDropTarget } from "./IDropTarget";
-import { IJsonBorderNode } from "./IJsonModel";
-import { Model } from "./Model";
-import { Node } from "./Node";
-import { TabNode } from "./TabNode";
-import { TabSetNode } from "./TabSetNode";
-import { adjustSelectedIndex } from "./Utils";
+import { Attribute } from "../Attribute.ts";
+import { AttributeDefinitions } from "../AttributeDefinitions.ts";
+import { DockLocation } from "../DockLocation.ts";
+import { DropInfo } from "../DropInfo.ts";
+import { Orientation } from "../Orientation.ts";
+import { Rect } from "../Rect.ts";
+import { CLASSES } from "../Types.ts";
+import { IDraggable } from "./IDraggable.ts";
+import { IDropTarget } from "./IDropTarget.ts";
+import { IJsonBorderNode } from "./IJsonModel.ts";
+import { Model } from "./Model.ts";
+import { Node } from "./Node.ts";
+import { TabNode } from "./TabNode.ts";
+import { TabSetNode } from "./TabSetNode.ts";
+import { adjustSelectedIndex } from "./Utils.ts";
 
 export class BorderNode extends Node implements IDropTarget {
     static readonly TYPE = "border";

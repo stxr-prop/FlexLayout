@@ -6,6 +6,7 @@
         "target": "ESNext",
         "module": "ESNext",
         "moduleResolution": "bundler",
+        "allowImportingTsExtensions": true,
         "stripInternal": true,
         "alwaysStrict": true,
         "forceConsistentCasingInFileNames": true,

@@ -1,7 +1,7 @@
-import { TabSetNode } from "./TabSetNode";
-import { BorderNode } from "./BorderNode";
-import { RowNode } from "./RowNode";
-import { TabNode } from "./TabNode";
+import { TabSetNode } from "./TabSetNode.ts";
+import { BorderNode } from "./BorderNode.ts";
+import { RowNode } from "./RowNode.ts";
+import { TabNode } from "./TabNode.ts";
 
 /** @internal */
 export function adjustSelectedIndexAfterDock(node: TabNode) {

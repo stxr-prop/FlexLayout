@@ -1,8 +1,8 @@
 import * as React from "react";
-import { Node } from "../model/Node";
-import { TabNode } from "../model/TabNode";
-import { LayoutInternal } from "./Layout";
-import { TabSetNode } from "../model/TabSetNode";
+import { Node } from "../model/Node.ts";
+import { TabNode } from "../model/TabNode.ts";
+import { LayoutInternal } from "./Layout.ts";
+import { TabSetNode } from "../model/TabSetNode.ts";
 
 /** @internal */
 export function isDesktop() {

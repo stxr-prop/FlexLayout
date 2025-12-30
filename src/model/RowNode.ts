@@ -1,19 +1,19 @@
-import { TabNode } from "./TabNode";
-import { Attribute } from "../Attribute";
-import { AttributeDefinitions } from "../AttributeDefinitions";
-import { DockLocation } from "../DockLocation";
-import { DropInfo } from "../DropInfo";
-import { Orientation } from "../Orientation";
-import { CLASSES } from "../Types";
-import { BorderNode } from "./BorderNode";
-import { IDraggable } from "./IDraggable";
-import { IDropTarget } from "./IDropTarget";
-import { IJsonRowNode } from "./IJsonModel";
-import { DefaultMax, DefaultMin, Model } from "./Model";
-import { Node } from "./Node";
-import { TabSetNode } from "./TabSetNode";
-import { canDockToWindow } from "../view/Utils";
-import { LayoutWindow } from "./LayoutWindow";
+import { TabNode } from "./TabNode.ts";
+import { Attribute } from "../Attribute.ts";
+import { AttributeDefinitions } from "../AttributeDefinitions.ts";
+import { DockLocation } from "../DockLocation.ts";
+import { DropInfo } from "../DropInfo.ts";
+import { Orientation } from "../Orientation.ts";
+import { CLASSES } from "../Types.ts";
+import { BorderNode } from "./BorderNode.ts";
+import { IDraggable } from "./IDraggable.ts";
+import { IDropTarget } from "./IDropTarget.ts";
+import { IJsonRowNode } from "./IJsonModel.ts";
+import { DefaultMax, DefaultMin, Model } from "./Model.ts";
+import { Node } from "./Node.ts";
+import { TabSetNode } from "./TabSetNode.ts";
+import { canDockToWindow } from "../view/Utils.tsx";
+import { LayoutWindow } from "./LayoutWindow.ts";
 
 export class RowNode extends Node implements IDropTarget {
     static readonly TYPE = "row";

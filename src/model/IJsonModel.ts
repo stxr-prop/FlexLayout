@@ -1,4 +1,4 @@
-import { ICloseType } from "./ICloseType";
+import { ICloseType } from "./ICloseType.ts";
 export type IBorderLocation = "top" | "bottom" | "left" | "right";
 export type ITabLocation = "top" | "bottom";
 

@@ -1,7 +1,7 @@
-import { DockLocation } from "./DockLocation";
-import { IDropTarget } from "./model/IDropTarget";
-import { Node } from "./model/Node";
-import { Rect } from "./Rect";
+import { DockLocation } from "./DockLocation.ts";
+import { IDropTarget } from "./model/IDropTarget.ts";
+import { Node } from "./model/Node.ts";
+import { Rect } from "./Rect.ts";
 
 export class DropInfo {
     node: Node & IDropTarget;

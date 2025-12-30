@@ -1,5 +1,5 @@
-import { Orientation } from "./Orientation";
-import { Rect } from "./Rect";
+import { Orientation } from "./Orientation.ts";
+import { Rect } from "./Rect.ts";
 
 export class DockLocation {
     static values = new Map<string, DockLocation>();

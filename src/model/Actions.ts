@@ -1,6 +1,6 @@
-import { DockLocation } from "../DockLocation";
-import { Action } from "./Action";
-import { IJsonRect, IJsonRowNode } from "./IJsonModel";
+import { DockLocation } from "../DockLocation.ts";
+import { Action } from "./Action.ts";
+import { IJsonRect, IJsonRowNode } from "./IJsonModel.ts";
 
 /**
  * The Action creator class for FlexLayout model actions
