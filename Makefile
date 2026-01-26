@@ -4,6 +4,11 @@ build:
 	@bun x tsc -p tsconfig-types.json
 #	@bun x typedoc --out typedoc --exclude \"**/demo/**/*.tsx\" --excludeInternal --disableSources --excludePrivate --excludeProtected --readme none ./src
 
+types:
+	@bun x tsc -p tsconfig-types.json
+
+.PHONY: types
+
 test:
 	@bun x vitest
 
