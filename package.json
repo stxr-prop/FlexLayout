@@ -17,9 +17,37 @@
             "default": "./src/index.ts"
         },
         "./style/*": "./style/*",
-        "./*": {
-            "types": "./types/*.d.ts",
-            "default": "./src/*.ts"
+        "./model/Model": {
+            "types": "./types/model/Model.d.ts",
+            "default": "./src/model/Model.ts"
+        },
+        "./model/Action": {
+            "types": "./types/model/Action.d.ts",
+            "default": "./src/model/Action.ts"
+        },
+        "./model/Actions": {
+            "types": "./types/model/Actions.d.ts",
+            "default": "./src/model/Actions.ts"
+        },
+        "./model/TabNode": {
+            "types": "./types/model/TabNode.d.ts",
+            "default": "./src/model/TabNode.ts"
+        },
+        "./model/TabSetNode": {
+            "types": "./types/model/TabSetNode.d.ts",
+            "default": "./src/model/TabSetNode.ts"
+        },
+        "./model/IJsonModel": {
+            "types": "./types/model/IJsonModel.d.ts",
+            "default": "./src/model/IJsonModel.ts"
+        },
+        "./view/Layout": {
+            "types": "./types/view/Layout.d.ts",
+            "default": "./src/view/Layout.tsx"
+        },
+        "./DockLocation": {
+            "types": "./types/DockLocation.d.ts",
+            "default": "./src/DockLocation.ts"
         }
     },
     "files": [
