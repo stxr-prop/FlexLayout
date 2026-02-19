@@ -1,96 +1,96 @@
 {
-    "name": "flexlayout-react",
-    "version": "0.8.17",
-    "description": "A multi-tab docking layout manager",
-    "author": "Caplin Systems Ltd",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/caplin/FlexLayout.git"
+  "name": "flexlayout-react",
+  "version": "0.8.17",
+  "description": "A multi-tab docking layout manager",
+  "author": "Caplin Systems Ltd",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caplin/FlexLayout.git"
+  },
+  "license": "LicenseRef-STXR-Internal-Only-1.0",
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./types/index.d.ts",
+      "default": "./src/index.ts"
     },
-    "license": "ISC",
-    "type": "module",
-    "main": "./src/index.ts",
-    "types": "./types/index.d.ts",
-    "exports": {
-        ".": {
-            "types": "./types/index.d.ts",
-            "default": "./src/index.ts"
-        },
-        "./style/*": "./style/*",
-        "./model/Model": {
-            "types": "./types/model/Model.d.ts",
-            "default": "./src/model/Model.ts"
-        },
-        "./model/Action": {
-            "types": "./types/model/Action.d.ts",
-            "default": "./src/model/Action.ts"
-        },
-        "./model/Actions": {
-            "types": "./types/model/Actions.d.ts",
-            "default": "./src/model/Actions.ts"
-        },
-        "./model/TabNode": {
-            "types": "./types/model/TabNode.d.ts",
-            "default": "./src/model/TabNode.ts"
-        },
-        "./model/TabSetNode": {
-            "types": "./types/model/TabSetNode.d.ts",
-            "default": "./src/model/TabSetNode.ts"
-        },
-        "./model/IJsonModel": {
-            "types": "./types/model/IJsonModel.d.ts",
-            "default": "./src/model/IJsonModel.ts"
-        },
-        "./view/Layout": {
-            "types": "./types/view/Layout.d.ts",
-            "default": "./src/view/Layout.tsx"
-        },
-        "./DockLocation": {
-            "types": "./types/DockLocation.d.ts",
-            "default": "./src/DockLocation.ts"
-        }
+    "./style/*": "./style/*",
+    "./model/Model": {
+      "types": "./types/model/Model.d.ts",
+      "default": "./src/model/Model.ts"
     },
-    "files": [
-        "dist/",
-        "types/",
-        "style/"
-    ],
-    "keywords": [
-        "react",
-        "layout",
-        "dock",
-        "popout",
-        "tabs",
-        "tabset",
-        "splitter",
-        "drag",
-        "drop",
-        "reactjs",
-        "flexlayout",
-        "flex layout",
-        "layout manager",
-        "drag and drop",
-        "split view",
-        "docking library",
-        "docking layout"
-    ],
-    "peerDependencies": {
-        "react": "^18.0.0 || ^19.0.0",
-        "react-dom": "^18.0.0 || ^19.0.0"
+    "./model/Action": {
+      "types": "./types/model/Action.d.ts",
+      "default": "./src/model/Action.ts"
     },
-    "devDependencies": {
-        "@playwright/test": "1.51.1",
-        "@types/node": "^22.14.1",
-        "@types/react": "^19.1.2",
-        "@types/react-dom": "^19.1.2",
-        "@vitejs/plugin-react": "^4.4.0",
-        "prettier": "^3.5.3",
-        "react": "^19.1.0",
-        "react-dom": "^19.1.0",
-        "sass": "^1.86.3",
-        "typedoc": "^0.28.2",
-        "typescript": "^5.8.3",
-        "vite": "^6.3.0",
-        "vitest": "^3.1.1"
+    "./model/Actions": {
+      "types": "./types/model/Actions.d.ts",
+      "default": "./src/model/Actions.ts"
+    },
+    "./model/TabNode": {
+      "types": "./types/model/TabNode.d.ts",
+      "default": "./src/model/TabNode.ts"
+    },
+    "./model/TabSetNode": {
+      "types": "./types/model/TabSetNode.d.ts",
+      "default": "./src/model/TabSetNode.ts"
+    },
+    "./model/IJsonModel": {
+      "types": "./types/model/IJsonModel.d.ts",
+      "default": "./src/model/IJsonModel.ts"
+    },
+    "./view/Layout": {
+      "types": "./types/view/Layout.d.ts",
+      "default": "./src/view/Layout.tsx"
+    },
+    "./DockLocation": {
+      "types": "./types/DockLocation.d.ts",
+      "default": "./src/DockLocation.ts"
     }
+  },
+  "files": [
+    "dist/",
+    "types/",
+    "style/"
+  ],
+  "keywords": [
+    "react",
+    "layout",
+    "dock",
+    "popout",
+    "tabs",
+    "tabset",
+    "splitter",
+    "drag",
+    "drop",
+    "reactjs",
+    "flexlayout",
+    "flex layout",
+    "layout manager",
+    "drag and drop",
+    "split view",
+    "docking library",
+    "docking layout"
+  ],
+  "peerDependencies": {
+    "react": "^18.0.0 || ^19.0.0",
+    "react-dom": "^18.0.0 || ^19.0.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.51.1",
+    "@types/node": "^22.14.1",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@vitejs/plugin-react": "^4.4.0",
+    "prettier": "^3.5.3",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "sass": "^1.86.3",
+    "typedoc": "^0.28.2",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.0",
+    "vitest": "^3.1.1"
+  }
 }
