@@ -1,21 +1,174 @@
-MIT License
+## STXR INTERNAL-ONLY PROPRIETARY LICENSE
 
-Copyright (c) 2017 Caplin Systems Ltd
+**SPDX-License-Identifier:** `LicenseRef-STXR-Internal-Only-1.0`  
+**Copyright (c) 2026 Structure Financial, Inc. (“STXR”). All Rights Reserved.**
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+### 1. Acceptance; Authorization; Condition of Access
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1.1 **Authorization required.** The Software is STXR proprietary and is made available **only** to Authorized Users. If You are not an Authorized User, You are not authorized to access or use the Software and must not do so.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+1.2 **Condition of access.** Any access to the Software is strictly conditioned on acceptance of this License. If You do not accept this License, You must not access, view, copy, download, use, or modify the Software.
+
+1.3 **Acceptance.** By accessing, viewing, copying, downloading, using, or modifying any portion of the Software, You accept and agree to be bound by this License.
+
+1.4 **Authority.** If You access or use the Software on behalf of an entity, You represent that You have authority to bind that entity, and “You” includes that entity.
+
+1.5 **Other agreements.** This License is a baseline for repository distribution/handling. Separate written agreements and/or policies with STXR (e.g., employment, contractor, NDA, access agreements) may impose additional or different obligations; in the event of a direct conflict, the separate written agreement/policy governs **to the extent of the conflict**.
+
+### 2. Definitions
+
+2.1 **“Company”** means Structure Financial, Inc., commonly referred to as “STXR.”
+
+2.2 **“You”** means any individual or entity that accesses, views, possesses, receives, or uses any portion of the Software, including Authorized Users.
+
+2.3 **“Software”** means this repository and all of its contents made available by STXR, including without limitation: source code, object code, binaries, libraries, APIs, build scripts, configuration, infrastructure-as-code, documentation, specifications, tests, and any updates, patches, and modifications thereto.
+
+2.4 **“Derived Materials”** means modifications, derivative works, adaptations, translations, enhancements, or other works based on or incorporating any portion of the Software.
+
+2.5 **“Company Systems”** means systems, accounts, networks, repositories, devices, endpoints, and environments owned, leased, or controlled by STXR, including:
+
+* STXR-managed endpoints and STXR-controlled cloud accounts; and
+* STXR-controlled repositories and accounts on **GitHub Cloud** (including STXR’s GitHub organization/team account(s)) and associated features configured under STXR control (e.g., access controls, audit logs, and CI/CD features enabled within the STXR org/account).
+
+Company Systems exclude personal accounts/devices and non-STXR-controlled systems unless STXR expressly authorizes in writing.
+
+2.6 **“Confidential Information”** means (a) the Software and Derived Materials, and (b) any non-public information relating to the Software, including designs, architecture, workflows, methods, business logic, security measures, performance characteristics, and related know-how, whether or not marked confidential. Confidential Information includes non-public outputs or artifacts **only to the extent** they contain or reveal Confidential Information (including source code, secrets, or detailed architecture).
+
+2.7 **“Authorized Users”** means (a) STXR employees, and (b) STXR contractors/consultants and their personnel, **solely** to the extent they are (i) bound by written confidentiality and IP obligations at least as protective as this License (or otherwise acceptable to STXR in writing), and (ii) explicitly authorized by STXR to access the Software.
+
+2.8 **“Third-Party AI System”** means any AI/ML model, service, or tooling not owned and controlled by STXR, including hosted APIs and managed services.
+
+2.9 **“Approved AI Service”** means a Third-Party AI System explicitly approved in writing by STXR for use with the Software under STXR-controlled accounts and configurations meeting STXR’s privacy requirements, including contractual and/or technical assurances consistent with STXR requirements regarding: **(i)** no training on STXR data except as expressly approved in writing, **(ii)** retention limited to what is necessary to provide the service (or as close to zero retention as available), and **(iii)** maximum privacy settings enabled.
+
+2.10 **“Third-Party Materials”** means software or other materials that are included in or distributed with the Software and are licensed under separate third-party terms (including open-source licenses), as identified in `NOTICE`, `THIRD_PARTY_LICENSES`, dependency manifests, headers, vendored directories, or similar materials designated by STXR.
+
+### 3. Ownership; Reservation of Rights; No Patent License; Third-Party Materials
+
+3.1 **Ownership.** The Software and Confidential Information are and shall remain the sole property of STXR and/or its licensors. No right, title, or interest is transferred to You.
+
+3.2 **Reservation of rights.** Except for the limited permission expressly granted in Section 4, **no license or other rights** are granted under any intellectual property rights, whether by implication, estoppel, or otherwise.
+
+3.3 **No patent license.** STXR grants no license under any patent rights.
+
+3.4 **Third-Party Materials.** Third-Party Materials are governed by their applicable third-party license terms. Those terms apply **only** to the Third-Party Materials. Nothing in this License grants You any rights to Third-Party Materials beyond what their terms permit, and nothing in third-party terms grants You rights to STXR’s Software beyond what those terms require.
+
+3.5 **Required notices must be preserved; optional notices may be removed under control.**
+(a) STXR will maintain or designate applicable third-party notices and license texts in `NOTICE` and/or `THIRD_PARTY_LICENSES` (or equivalent).
+(b) **You must not remove, alter, or obscure any third-party notices, attributions, or license texts that are required by applicable third-party terms.**
+(c) Third-party notices that are **not required** by applicable third-party terms may be removed **only** in accordance with STXR’s written direction (e.g., Legal or designated Engineering leadership), and only if doing so does not create compliance risk.
+
+### 4. Limited Permission — Internal Use Only
+
+Subject to strict compliance with this License, STXR permits Authorized Users to access and use the Software **solely for STXR internal business purposes** and solely within Company Systems.
+
+This limited permission includes the right for Authorized Users to modify the Software and create Derived Materials **only** for STXR’s benefit, provided that all such Derived Materials are treated as Software and Confidential Information and are owned exclusively by STXR to the maximum extent permitted by law (and, where applicable, assigned to STXR under applicable agreements).
+
+### 5. Prohibited Uses (Strict)
+
+Except as expressly permitted in Section 4, You must not, and must not permit any third party to:
+
+5.1 **Use outside STXR.** Use the Software or Confidential Information for any purpose other than STXR internal business purposes.
+
+5.2 **Distribute or disclose.** Copy, distribute, sublicense, sell, transfer, rent, lease, publish, disclose, post, open-source, or otherwise make available any portion of the Software or Confidential Information to any person or entity outside STXR, including via public or shared repositories, personal accounts, or non-approved collaboration tools.
+
+5.3 **Provide as a service.** Host, deploy, or offer the Software (or any functionality derived from it) for the benefit of any third party, including as SaaS, managed service, bureau service, or time-sharing, except as part of STXR’s own services delivered by STXR in the ordinary course of business.
+
+5.4 **Remove notices.** Remove, alter, or obscure proprietary notices, attribution, access controls, audit/logging mechanisms, **or any third-party notices required by applicable third-party terms**.
+
+5.5 **Reverse engineer.** Reverse engineer, decompile, or disassemble any binaries or compiled artifacts included with the Software, or otherwise attempt to derive underlying structure, secrets, or trade secrets except to the extent such restriction is prohibited by applicable law, and then only after providing STXR written notice sufficient to allow STXR to seek protective measures.
+
+5.6 **Circumvent security.** Circumvent, disable, or interfere with security controls, access controls, key management, secrets management, or usage logging.
+
+5.7 **Misuse of Confidential Information.** Use the Software or Confidential Information to create, assist in creating, or enable any non-STXR software, product, or service that incorporates or is derived from Confidential Information, to the maximum extent enforceable under applicable law. (This is a use/confidentiality restriction and does not limit lawful general skills and experience.)
+
+5.8 **AI benchmarking/evaluation.** Use the Software or Confidential Information (including prompts, code, or outputs containing Confidential Information) to test, evaluate, benchmark, red-team, compare, or otherwise analyze any Third-Party AI System, including by submitting any such material to that system, whether or not results are published, except as permitted under Section 6 for Approved AI Services.
+
+### 6. AI / ML Restrictions
+
+6.1 **General prohibition.** You must not submit any portion of the Software or Confidential Information to any Third-Party AI System, and must not use the Software or any Confidential Information to train, fine-tune, distill, or otherwise improve any Third-Party AI System.
+
+6.2 **Narrow exception for Approved AI Services.** Section 6.1 does not apply only to the extent You use an Approved AI Service under STXR-controlled accounts and configurations approved by STXR. Any such use must be limited to STXR internal purposes and must comply with STXR’s privacy and security requirements.
+
+6.3 **No third-party training on STXR materials.** Even when using an Approved AI Service, You must not authorize, enable, or agree (including via settings or terms accepted on STXR’s behalf) to allow any third party to train or fine-tune on STXR prompts, inputs, outputs, code, or related data beyond what STXR has expressly approved in writing.
+
+6.4 **Approval authority.** Only STXR’s CTO or designated Engineering leadership (as communicated by STXR in writing) may approve an Approved AI Service or any exception to this Section 6.
+
+### 7. Confidentiality; Handling Obligations; Monitoring
+
+7.1 **Protection.** You must protect the Software and Confidential Information using at least the same degree of care You use to protect Your own confidential information of similar sensitivity, and no less than reasonable care.
+
+7.2 **Location and accounts.** You must keep the Software within Company Systems and must not store it on personal accounts, personal repositories, or non-STXR-controlled systems unless STXR expressly authorizes in writing.
+
+7.3 **Least privilege.** You must access only the portions of the Software necessary for Your authorized role and comply with STXR access control policies.
+
+7.4 **Incident notification.** You must promptly notify STXR of any actual or suspected unauthorized access, disclosure, loss, malware infection, credential compromise, or other security incident involving the Software or Confidential Information.
+
+7.5 **Monitoring.** To the maximum extent permitted by law and applicable policy, STXR may log, monitor, and review access to and use of the Software on Company Systems for security, compliance, and operational purposes.
+
+### 8. Accidental Public Availability; Unauthorized Recipients; No Waiver
+
+8.1 **No license by exposure.** If any portion of the Software becomes publicly accessible (including via misconfiguration, leak, or unauthorized disclosure), **no license is granted** to any recipient by virtue of that availability. Any access or use outside Section 4 is unauthorized and prohibited.
+
+8.2 **Unauthorized recipients.** If You are not an Authorized User and You obtain any portion of the Software (by any means), You must promptly (a) cease any access and use, (b) notify STXR under Section 16, and (c) delete all copies in Your possession or control and, upon request, certify deletion.
+
+8.3 **No waiver of confidentiality/trade secret.** Unauthorized public availability does not constitute a waiver of STXR’s rights, including trade secret and confidentiality rights, to the maximum extent permitted by law.
+
+8.4 **Notice.** If You become aware of public availability or suspected leak, You must notify STXR promptly under Section 16.
+
+### 9. Contributions; Submissions
+
+9.1 **External contributions not accepted.** STXR does not accept contributions from non-Authorized Users unless STXR separately agrees in writing.
+
+9.2 **Assignment / license of submissions.** To the maximum extent permitted by law, any code, content, feedback, or suggestions You submit relating to the Software are automatically and irrevocably assigned to STXR; if assignment is not legally effective, You grant STXR a perpetual, worldwide, irrevocable, transferable, sublicensable, royalty-free license to use, modify, distribute, and exploit such submissions for any purpose without compensation.
+
+### 10. Trademarks
+
+This License does not grant any rights in STXR’s names, logos, or trademarks. You must not use them except to identify STXR as owner of the Software.
+
+### 11. Termination; Return/Destruction; Cooperation
+
+11.1 **Automatic termination.** This License (and any permissions granted) terminates automatically upon any breach.
+
+11.2 **Cessation and return/destruction.** Upon termination or upon STXR’s written request, You must immediately cease use of the Software and Confidential Information, delete or return all copies (including copies in personal accounts and non-approved systems, and including backups to the extent practicable), and certify compliance in writing.
+
+11.3 **Containment and cooperation.** In connection with any suspected or actual unauthorized disclosure or misuse, You must reasonably cooperate with STXR’s containment and remediation efforts, including identifying locations of copies, assisting with takedowns/credential rotation, and preserving evidence to the extent permitted by law.
+
+### 12. Disclaimer; Limitation of Liability
+
+12.1 **AS IS.** The Software is provided “AS IS” and “AS AVAILABLE,” without warranties of any kind, express or implied, including warranties of merchantability, fitness for a particular purpose, title, non-infringement, or that the Software will be error-free or secure.
+
+12.2 **Limitation.** To the maximum extent permitted by law, STXR will not be liable for any indirect, incidental, special, consequential, exemplary, or punitive damages, or for loss of profits, revenue, data, or goodwill, arising out of or relating to the Software or this License, even if advised of the possibility of such damages.
+
+### 13. Equitable Relief
+
+You acknowledge that any breach may cause irreparable harm for which monetary damages are insufficient, and STXR may seek injunctive or other equitable relief in addition to any other remedies, without posting bond to the extent permitted by law.
+
+### 14. Governing Law; Venue; Mandatory Law
+
+14.1 **Governing law.** This License and any dispute arising out of or relating to it are governed by the laws of the Netherlands, excluding its conflict-of-law rules.
+
+14.2 **Forum (non-mandatory cases).** Subject to Section 14.3, the courts of **The Hague, the Netherlands** have exclusive jurisdiction and venue, and You irrevocably submit to such jurisdiction and venue.
+
+14.3 **Mandatory-law and enforceability carveout.** Nothing in this License (including Section 14.2) limits rights or imposes obligations that cannot be waived or restricted under applicable mandatory law (including, where applicable, mandatory employment law). To the extent exclusive jurisdiction in The Hague is held unenforceable for a particular dispute or party, the dispute shall be brought in a court of competent jurisdiction as required by applicable mandatory law, and the parties submit to that court’s jurisdiction.
+
+14.4 **Injunctive relief carveout.** Notwithstanding the foregoing, STXR may seek interim or injunctive relief in any court of competent jurisdiction to prevent or restrain unauthorized disclosure or misuse of the Software or Confidential Information.
+
+### 15. Export Controls; Sanctions (Optional Standard)
+
+You must comply with applicable export control and sanctions laws and regulations in connection with access to or use of the Software.
+
+### 16. Notices
+
+16.1 **How to give notice.** Notices under this License must be in writing and delivered to STXR at the contact method(s) designated by STXR from time to time, which may include a designated security/legal email address or an internal reporting channel.
+
+16.2 **Deemed receipt.** Notices are deemed received when sent via the designated method with reasonable evidence of transmission (e.g., email sent to the designated address).
+
+### 17. Miscellaneous; Severability; Survival
+
+17.1 **Severability and reformation.** If any provision is held unenforceable, the remaining provisions remain in effect, and the invalid provision will be reformed to the minimum extent necessary to make it enforceable while preserving intent.
+
+17.2 **No waiver.** No waiver is effective unless in writing and signed by STXR. Failure to enforce any provision is not a waiver.
+
+17.3 **Entire agreement (license terms).** This License is the entire agreement regarding the Software’s licensing terms for repository distribution purposes and supersedes any conflicting terms presented with the Software, except that separate written agreements and/or policies with STXR may impose additional or different restrictions as stated in Section 1.5.
+
+17.4 **Survival.** Sections 3, 5–10, 11.2–11.3, 12–14, 16, and 17 survive termination, along with any other provisions that by their nature should survive.
