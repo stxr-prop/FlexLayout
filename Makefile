@@ -1,16 +1,16 @@
 build:
-	@bun x sass style:style
-	@bun x vite build --config vite.config.lib.ts
-	@bun x tsc -p tsconfig-types.json
+	@pnpm exec sass style:style
+	@pnpm exec vite build --config vite.config.lib.ts
+	@pnpm exec tsc -p tsconfig-types.json
 #	@bun x typedoc --out typedoc --exclude \"**/demo/**/*.tsx\" --excludeInternal --disableSources --excludePrivate --excludeProtected --readme none ./src
 
 types:
-	@bun x tsc -p tsconfig-types.json
+	@pnpm exec tsc -p tsconfig-types.json
 
 .PHONY: types
 
 test:
-	@bun x vitest
+	@pnpm exec vitest
 
 test_e2e:
 	@playwright test --ui
